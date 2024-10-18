@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Acarajé da Ivone</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Cabeçalho -->
+    <header>
+      <h1>Acarajé da Ivone</h1>
+      <p>O melhor acarajé da região, feito com amor e tradição!</p>
+      <nav>
+        <ul>
+          <li><a href="#menu">Cardápio</a></li>
+          <li><a href="#cart">Carrinho</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Seção de Cardápio -->
+    <section id="menu">
+      <h2>Cardápio de Acarajés</h2>
+      <div class="menu-item">
+        <h3>Acarajé Tradicional</h3>
+        <p>Acarajé com vatapá, caruru e camarão.</p>
+        <p><strong>R$ 10,00</strong></p>
+        <button
+          class="add-to-cart"
+          data-name="Acarajé Tradicional"
+          data-price="10.00"
+        >
+          Adicionar ao Carrinho
+        </button>
+      </div>
+
+      <div class="menu-item">
+        <h3>Acarajé Simples</h3>
+        <p>Acarajé sem camarão, apenas com vatapá e caruru.</p>
+        <p><strong>R$ 8,00</strong></p>
+        <button
+          class="add-to-cart"
+          data-name="Acarajé Simples"
+          data-price="8.00"
+        >
+          Adicionar ao Carrinho
+        </button>
+      </div>
+
+      <div class="menu-item">
+        <h3>Acarajé Vegano</h3>
+        <p>Acarajé sem ingredientes de origem animal, com vatapá e legumes.</p>
+        <p><strong>R$ 12,00</strong></p>
+        <button
+          class="add-to-cart"
+          data-name="Acarajé Vegano"
+          data-price="12.00"
+        >
+          Adicionar ao Carrinho
+        </button>
+      </div>
+    </section>
+
+    <!-- Seção de Carrinho -->
+    <section id="cart">
+      <h2>Seu Carrinho</h2>
+      <div id="cart-items">
+        <p>Carrinho vazio</p>
+      </div>
+      <h3>Total: R$ <span id="total-price">0.00</span></h3>
+      <button id="checkout">Finalizar Pedido</button>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contact">
+      <h2>Contato</h2>
+      <p>Entre em contato pelo WhatsApp e faça seu pedido:</p>
+      <p>
+        <a href="https://wa.me/5575981747174" target="_blank"
+          >WhatsApp - Acarajé da Ivone</a
+        >
+      </p>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Acarajé da Ivone. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
